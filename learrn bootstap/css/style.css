@@ -1,0 +1,728 @@
+/* Start main website */ 
+
+body{
+    padding-top:60px;
+
+}
+
+/* End main website */ 
+
+
+
+/************* Start overriding bootstrap *********************/
+
+/* start navbar active */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+    background-color:#080
+}
+
+/*  all navbar */
+.navbar
+{
+    min-height:60px
+}
+
+
+/* Start brand name */ 
+.navbar-inverse .navbar-brand
+{
+    color:#d0d0d0
+        
+}
+
+.navbar-brand
+{
+    font-size:30px;
+    line-height:25px
+}
+
+.navbar-inverse .navbar-brand span
+{
+    color:#080
+}
+
+/* Start dropswen */
+.dropdown-menu
+{
+    background-color:#333;
+    border-bottom:2px solid #080;
+    border-top:2px solid #080;
+    min-width:221px
+}
+
+.dropdown-menu > li > a
+{
+    color:#FFF;
+    padding:7px 20px;
+    -webkit-transition:padding .5s ease;
+    -moz-transition:padding .5d ease;
+    -o-transition:padding .5s ease;
+    transition:padding .5s ease
+    
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{
+    background-color:#080;
+    color:#FFF;
+    padding-left:30px
+}
+
+.navbar-inverse .navbar-nav > li > a
+{
+    color:#999;
+    font-size:16px
+}
+
+.dropdown-menu .divider
+{
+    background-color:#96b381
+}
+
+.navbar-right .dropdown-menu
+
+{
+    left:0;
+    right:auto
+}
+
+.navbar-nav > li > a
+{
+    padding-top:20px;
+    padding-bottom:20px
+}
+
+/* Start toggle */
+.navbar-toggle
+{
+    margin-top:12px
+}
+
+
+/* carousel */ 
+
+.carousel-caption
+{
+    bottom:277px;
+    background-color:rgba(3,3,3,.5);
+    font-family:cursive;
+    border-radius:20px;
+    
+}
+
+.carousel-indicators li
+{
+    width:15px;
+    height:15px;
+    border:1px solid #000
+   
+}
+
+
+.carousel-indicators .active
+{
+    width:17px;
+    height:17px;
+    background-color:#080
+}
+  .carousel-inner > .item > img, .carousel-inner > .item > a > img
+
+{
+    width:100%
+}
+.carousel-inner
+
+{
+    max-height:600px
+}
+/************* End overriding bootstrap *********************/
+
+
+/* Start section about */
+
+.about
+{
+    padding-top:50px;
+    padding-bottom:50px
+}
+
+.about .lead
+{
+    color:#888
+}
+
+.about h1
+{
+    text-transform:capitalize;
+    font-weight:bold
+}
+.about h1 span
+{
+    color:#080  
+}
+
+/* End setion about */ 
+
+/* Start section features */
+
+.features
+{
+    background-color:#DDD;
+    padding-top:50px;
+    padding-bottom:50px
+}
+
+.features h1
+{
+    margin-bottom:50px;
+    font-family:cursive
+}
+
+.features .feat span.glyphicon
+{
+    font-size:25px;
+    margin-bottom:15px;
+    color:#080
+}
+
+.features .feat h4
+{
+    font-family:monospace;
+    padding-bottom:10px;
+    font-size:20px
+}
+
+.features .feat p
+{
+    line-height:1.5em
+}
+
+.features .feat
+{
+    padding-bottom:20px
+}
+/* End secion features */
+
+/* Start testimonials */ 
+
+.testimonials
+{
+    padding-top:20px;
+    padding-bottom:20px
+}
+.testimonials h1
+{
+    padding-top:30px;
+    padding-bottom:20px;
+    font-weight:bold;
+    text-transform:capitalize;
+    font-family:cursive
+}
+
+.testimonials p
+{
+    line-height:2em
+}
+
+.testimonials .lead
+{
+    margin-bottom:10px
+}
+
+.testimonials span
+{
+    color:#080;
+    text-transform:capitalize;
+    font-size:17px;
+    font-family:cursive
+}
+
+.testimonials .carousel-inner
+{
+    min-height:160px
+}
+
+.testimonials .carousel-indicators
+{
+    position:static;
+    width:100%;
+    margin-left:auto;
+    padding-top:10px
+}
+
+ .testimonials .carousel-indicators li
+{
+    width:70px;
+    height:70px;
+    text-indent:0;
+    border:1px solid #FFF;
+    opacity:.5;
+    border:2px solid #FFF;
+    border-radius:50%;
+    overflow:hidden;
+    margin:5px;
+    -webkit-transition:all .5s ease;
+    -mz-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    transition:all .5s ease
+    
+}
+
+ .testimonials .carousel-indicators li.active
+{
+    
+    width:70px;
+    height:70px;
+    opacity:1;
+    background:none;
+    border:2px solid #080;
+    border-radius:50%
+}
+
+ .testimonials .carousel-indicators li img
+{
+    max-width:100%
+}
+
+/* End testimonials */
+
+
+/* Start section price table */
+
+.price-table
+{
+    background-color:#EEE;
+    padding-top:30px;
+    padding-bottom:30px
+}
+
+.price-table h1
+{
+    margin-bottom:50px;
+    text-transform:capitalize;
+    font-weight:bold;
+    font-family:cursive
+}
+
+.price-table .price-box 
+{
+    background-color:#FFF;
+    padding:10px;
+    border:1px solid #DDD;
+    margin-top:10px
+}
+
+.price-table .price-box h2
+{
+    margin:5px 0 10px 0;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.price-table .price-box:hover h2
+{
+    background-color:#DDD;
+    border-radius:20px
+}
+
+.price-table .price-box p
+{
+    font-size:30px;
+    font-weight:bold;
+    background-color:#ddd;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    line-height:100px;
+    border:1px solid #fff;
+    -webkit-transition-duration:1.5s
+           
+}
+
+.price-table .price-box span
+{
+    -webkit-transition-duration:1.5s
+}
+
+.price-table .price-box:hover span
+{
+    color:#080;
+    font-weight:bold
+}
+
+.price-table .price-box:hover p
+{
+    -webkit-transform:scale(1.2,1.2)rotate(360deg);
+    -moz-transform:scale(1.2,1.2)rotate(360deg);
+    -o-transform:scale(1.2,1.2)rotate(360deg);
+    transform:scale(1.2,1.2)rotate(360deg) ;
+    border:1px solid #222
+  
+}
+
+.price-table .price-box ul li
+{
+    line-height:2em
+}
+
+.price-table .price-box a
+{
+    margin-bottom:5px;
+    text-transform:capitalize;
+    letter-spacing:1px
+}
+
+.price-table .price-box a:hover
+{
+    background-color:#080;
+    transition:all 1s ease
+}
+
+/* End section price table */
+
+/* Start our-team */
+
+.our-team 
+{
+    background:url("../images/tem.jpg") no-repeat center fixed;  
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    width:100%;
+    min-height:600px
+}
+
+.our-team .team
+{
+    background:rgba(2,2,2,0.5);
+    min-height:600px;
+    color:#FFF;
+    padding-top:40px;
+    padding-bottom:40px
+    
+}
+
+.our-team h2
+{
+    margin-bottom:50px;
+    font-weight:bold;
+    font-family:cursive
+}
+
+.our-team .person 
+{
+    margin-bottom:40px
+}
+
+.our-team .person p
+{
+    padding-bottom:20px;
+    line-height:1.5em
+}
+
+.our-team .person h4
+{
+    font-weight:bold
+}
+
+
+/* Start section subscribe */
+/* End section subscribe */ 
+.subscribe
+{
+    padding-top:30px;
+    padding-bottom:60px;
+    background-color:#DDD
+}
+
+.subscribe h1 
+{
+    color:#888;
+    padding-bottom:20px;
+    text-transform:capitalize;
+    letter-spacing:2px;
+    font-family:cursive
+}
+
+.subscribe .form-control
+{
+    border-radius:0;
+    margin-right:-5px;
+    width:300px    
+}
+
+.subscribe button
+{
+    border-radius:0;
+    letter-spacing:.5px
+}
+
+/* Start sectio statics */
+
+.static
+{
+    background:url("../images/st.jpg")no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height:300px
+}
+
+.opa
+{
+    background-color:rgba(2,2,2,0.7);
+    min-height:300px
+}
+
+.static .opa 
+{
+    color:#999;
+    text-transform:capitalize;
+    padding-top:20px;
+    padding-bottom:20px;
+    
+    
+}
+
+.static .opa h1 
+{
+    padding-top:20px;
+    padding-bottom:20px;
+    font-family:cursive
+}
+
+.static .opa .stats p
+{
+    padding-top:10px;
+    font-size:30px;
+    margin-bottom:0;
+    font-weight:bold
+}
+
+.static .opa .stats span
+{
+    padding-bottom:20px
+}
+ 
+.static .opa .stats
+{
+    -webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    transition:all .5s ease;
+    margin-bottom:30px
+}
+
+.static .opa .stats:hover
+{
+    color:#FFF
+}
+/* End section statics */ 
+
+/* Start our-skills */ 
+
+
+/* progress */ 
+.our-skills 
+{
+    padding-top:30px;
+    padding-bottom:60px
+}
+
+.our-skills .skills
+{
+    padding-top:25px
+}
+
+.our-skills h1
+{
+    padding-bottom:20px;
+    text-transform:capitalize;
+    font-weight:bold;
+    font-family:cursive
+}
+
+.our-skills .progress
+{
+    height:30px
+}
+
+.our-skills .progress-bar
+{
+    line-height:30px;
+    text-align:left;
+    text-indent:10px;
+    font-weight:bold;
+    font-size:14px
+    
+}
+
+
+  /* team info */
+.team-info h3
+{
+    text-transform:capitalize;
+    font-weight:600;
+    color:#555
+}
+ 
+.team-info .lead
+{
+    color:#666
+}
+/* End our-skills */
+
+/* Start section contact us */ 
+
+.contact-us
+{
+    background:url("../images/contact.jpg") no-repeat center center fixed ;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height:300px
+
+}
+
+.contact-us .filds
+{
+    background:rgba(2,2,2,0.8);
+    min-height:300px;
+    color:#DDD;
+    padding-top:40px;
+    padding-bottom:40px
+}
+
+.contact-us .filds h1
+{
+    text-transform:capitalize;
+    font-weight:bold 
+}
+
+.contact-us .filds p
+{
+    text-transform:capitalize;
+    margin-bottom:40px
+}
+
+.contact-us .filds textarea
+{
+    height:108px
+}
+
+.contact-us input[type="text"],
+.contact-us textarea
+{
+    background:rgba(82,78,78,0.7);
+    color:#FFF;
+    border:none
+}
+
+/* End section contact us */ 
+
+/* Start section footer */ 
+
+.footer
+{
+    background:#111;
+    color:#AAA
+}
+
+.footer .con
+{
+    padding-top:30px
+}
+
+.footer h3
+{
+    color:#080;
+    text-transform:capitalize;
+    font-weight:bold;
+    letter-spacing:1px;
+    margin-bottom:20px
+}
+
+.footer .sitemap-list
+{
+    overflow:hidden
+}
+
+.footer .sitemap-list li
+{
+   float:left;
+   width:33.3333%;
+   padding:5px 0;
+   padding:20px 0;
+   font-size:18px
+}
+
+.footer .scial
+{
+    overflow:hidden
+}
+
+.footer .scial li
+{
+    float:left;
+    width:33.3333%;
+    margin-top:10px;
+    -webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    transition:all .5s ease ;
+
+}
+
+.footer .scial li:hover
+{
+    color:#080;
+  
+}
+
+.footer .con .med 
+{
+    padding-top:20px
+}
+
+.footer .con .images 
+{
+    padding-top:20px
+}
+
+.footer .con .img-thumbnail
+{
+    background:#000;
+    border:1px solid #999;
+    opacity:.5;
+    -webkit-transition:all .5s ease 
+}
+
+.footer .con .img-thumbnail:hover
+{
+    opacity:1
+}
+
+.footer .copy
+{
+    background-color:#222;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:20px;
+    
+}
+
+.footer .copy span
+{
+    color:#080
+}
+/* End section footer */ 
+
+
+/* End our-tem */ 
